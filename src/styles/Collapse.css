@@ -1,5 +1,5 @@
 .collapse {
-    width: 40%;
+    width: 80%;
     top: 171px;
     display: flex;
     flex-direction: column;
@@ -124,5 +124,7 @@
         margin-top:5%;
         width:90%;
     }
-   
+    .collapsable-container collapse{
+        width:40%;
+    }
 }

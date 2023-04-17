@@ -74,7 +74,9 @@ h2 {
     display: flex;
     flex-direction: column-reverse;
 }
-
+.collapsable-container .collapse{
+    width:40%;
+}
 @media all and (min-width: 375px) and (max-width: 667px) {
     .container-title-host {
         flex-direction: column !important;
@@ -109,5 +111,7 @@ h2 {
         flex-direction: column;
         margin: 0;
     }
-
+    .collapsable-container .collapse{
+        width:90%;
+    }
 }

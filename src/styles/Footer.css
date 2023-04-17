@@ -28,3 +28,9 @@
     width: 100%;
     padding: 5% 0;
 }
+
+@media all and (min-width: 375px) and (max-width: 667px) {
+    .ARR {
+        font-size: 18px !important;
+    }
+}
