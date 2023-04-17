@@ -20,26 +20,32 @@ export default function Lodgements() {
         <div>
             < Navigator />
             <div className='slideshow'>
-            < Slideshow 
-                slides={currentLodgement['pictures']}
-            />
+                < Slideshow 
+                    slides={currentLodgement['pictures']}
+                />
             </div>
-            <div className='container-title-city'>
-                <h1>{currentLodgement['title']}</h1>
-                <h2>{currentLodgement['location']}</h2>
-            </div>
-            <Tag
-                key={currentLodgement['id']}
-                tags={currentLodgement['tags']}
-            />
-            <div className='stars-host-container'>
-            <StarRating score={currentLodgement['rating']} />
-                <div className="hostRating-container">
-                    <Host 
+            <div className='under-slideshow-group'>
+                <div className="title-city-tag-group">
+                    <div className='container-title-city'>
+                        <h1>{currentLodgement['title']}</h1>
+                        <h2>{currentLodgement['location']}</h2>
+                    </div>
+                    <Tag
                         key={currentLodgement['id']}
-                        name={currentLodgement['host']['name']}
-                        picture={currentLodgement['host']['picture']}
+                        tags={currentLodgement['tags']}
                     />
+                </div>
+                <div className='stars-host-container'>
+                    <StarRating score={currentLodgement['rating']} />
+                        <div className='host-info-group'>
+                            <div className="hostRating-container">
+                                <Host 
+                                    key={currentLodgement['id']}
+                                    name={currentLodgement['host']['name']}
+                                    picture={currentLodgement['host']['picture']}
+                                />
+                            </div>
+                        </div>
                 </div>
             </div>
             <div className='collapsable-container'>

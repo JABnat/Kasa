@@ -1,7 +1,12 @@
 .host-container {
     display:flex;
+    justify-content: flex-end;
 }
 
+.host-container p{
+    width: 75px;
+    color:#FF6060;
+}
 p {
     font-family: 'Montserrat';
     font-style: normal;
@@ -12,16 +17,13 @@ p {
     flex-direction: column;
     display: flex;
     align-self: center;
-    color: #FF6060;
-    text-align: right;
 }
 
 .starRating {
     display: flex;
     justify-content: space-between;
     width: 175px;
-    height: 18px;
-    margin-left: 66px;
+    margin-top: 24px;
 }
 
 .rate-container {
@@ -46,6 +48,7 @@ p {
 .host-container img {
        object-fit: cover;
        border-radius: 50%;
+       height: 70px;
 }
 
 @media all and (min-width: 375px) and (max-width: 667px) {
@@ -53,8 +56,9 @@ p {
         width: 140px;
         height: 18px;
         margin-left: 5%;
+        margin-top: 0;
     }
     .host-container img{
         height: 45px;
-    }    
+    }  
 }

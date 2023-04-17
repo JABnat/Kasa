@@ -27,8 +27,12 @@ h2 {
 }
 
 .collapsable-container {
-    display:flex;
-    width:95%;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
 }
 
 .container-title-host {
@@ -56,7 +60,20 @@ h2 {
 }
 
 .stars-host-container {
-    display:flex;
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100%;
+}
+.under-slideshow-group {
+    display: flex;
+    flex-direction: row;
+    margin: 1% 5%;
+    justify-content: space-between;
+}
+
+.stars-host-container{
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 @media all and (min-width: 375px) and (max-width: 667px) {
@@ -83,9 +100,15 @@ h2 {
         justify-content: space-between;
         height: 30px;
         margin: 0 5% 3% 0;
+        flex-direction: row;
     }
     .host-container p{
         width: 50px;
         font-size: 13px;
     }
+    .under-slideshow-group{
+        flex-direction: column;
+        margin: 0;
+    }
+
 }
