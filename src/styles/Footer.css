@@ -1,0 +1,30 @@
+.footer_containter {
+    background-color: black;
+    width: 100%;
+    display: block;
+    text-align: -webkit-center;
+}
+
+.logo-footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    border-radius: 0;
+}
+.ARR {
+    font-family: Montserrat;
+    font-size: 24px;
+    line-height: 34px;
+    align-items: Center;
+    vertical-align: Bottom;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.text-container {
+    width: 100%;
+    padding: 5% 0;
+}

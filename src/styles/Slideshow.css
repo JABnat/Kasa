@@ -1,0 +1,83 @@
+.slideshow-container{
+    position: relative;
+    text-align: center;
+}
+  
+.buttons-container {
+    position: absolute;
+    bottom: 39%;
+    display: flex;
+    width: 84%;
+    justify-content: space-between;
+    margin-left: 8%;
+}
+
+.current-picture img {
+    height: 100%;
+    object-fit: cover;
+    max-width: 100%;
+    border-radius: 10px;
+    width: 90%;
+}
+
+.current-picture {
+    object-fit: cover;
+    height: 415px;
+    position: relative;
+}
+
+.hidden-pictures {
+    object-fit: cover;
+    position:absolute;
+}
+
+span {
+    position: absolute;
+    left: 48.95%;
+    right: 49.11%;
+    top: 86.19%;
+    bottom: 6.01%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 142.6%;
+
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.right-arrow {
+    color: #FFFFFF;
+    height: 79.2px;
+    width: 46.68px;
+    display: flex;
+}
+
+.left-arrow {
+    color: #FFFFFF;
+    height: 79.2px;
+    width: 46.68px;
+    display: flex;
+}
+
+@media all and (min-width: 375px) and (max-width: 667px) {
+    .current-picture {
+        margin-top:10px;
+        height:100% !important;
+    }
+    .slideshow-container {
+        height: 265px !important;
+    }
+    .buttons-container {
+        bottom: 45%;
+    }
+    .left-arrow,
+    .right-arrow {
+        height: 19.8px;
+        width: 11.67px;
+    }
+}

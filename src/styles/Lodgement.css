@@ -1,0 +1,91 @@
+h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 142.6%;
+    width:100%;
+    display: flex;
+    align-items: flex-end;
+    color: #FF6060;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 142.6%;
+    width:100%;
+    display: flex;
+    align-items: flex-end;
+    color: #FF6060;
+    margin-top:0;
+    align-items: center;
+}
+
+.collapsable-container {
+    display:flex;
+    width:95%;
+}
+
+.container-title-host {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.container-title-city {
+    display:flex;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+}
+
+.host-container {
+    display:flex;
+    align-items: center;
+}
+
+.spaceBetween {
+    height:100px;
+}
+
+.stars-host-container {
+    display:flex;
+}
+
+@media all and (min-width: 375px) and (max-width: 667px) {
+    .container-title-host {
+        flex-direction: column !important;
+    }
+    h1 {
+        align-items: flex-start;
+        font-size: 18px;
+    }
+    h2 {
+        font-size: 14px;
+        line-height: 200.6%;
+    }
+    .tag-container {
+        font-size: 10px;
+    }
+    .container-title-city {
+        margin: 3% 0 0 5%;
+    }
+    .stars-host-container {
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 30px;
+        margin: 0 5% 3% 0;
+    }
+    .host-container p{
+        width: 50px;
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,60 @@
+.host-container {
+    display:flex;
+}
+
+p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 142.6%;
+    margin-right: 10px;
+    flex-direction: column;
+    display: flex;
+    align-self: center;
+    color: #FF6060;
+    text-align: right;
+}
+
+.starRating {
+    display: flex;
+    justify-content: space-between;
+    width: 175px;
+    height: 18px;
+    margin-left: 66px;
+}
+
+.rate-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.star {
+    width: 24px;
+    height: 24px;
+}
+
+.tags-ratings-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 75px;
+    align-items: self-start;
+}
+
+.host-container img {
+       object-fit: cover;
+       border-radius: 50%;
+}
+
+@media all and (min-width: 375px) and (max-width: 667px) {
+    .starRating{
+        width: 140px;
+        height: 18px;
+        margin-left: 5%;
+    }
+    .host-container img{
+        height: 45px;
+    }    
+}

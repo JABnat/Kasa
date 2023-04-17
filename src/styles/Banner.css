@@ -1,0 +1,81 @@
+
+.banner-accueil {
+    width: 90%;
+    height: 223px;
+    top: 171px;
+    margin-left: 5%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/images/BannerAcceuil.png);
+    background-position: center;
+    background-size: cover;
+    mix-blend-mode: darken;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Chez vous, partout et ailleurs */
+.font-banner {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 142.6%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    align-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.banner-apropos {
+    width: 90%;
+    height: 223px;
+    top: 171px;
+    margin-left: 5%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../assets/images/AboutBanner.png');
+    background-position: center;
+    background-size: cover;
+    mix-blend-mode: darken;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    }
+
+    @media all and (min-width: 375px) and (max-width: 667px) {
+    .banner-accueil {
+        height:125px !important;
+        width: 88% !important; 
+        margin-left: 6% !important;
+        margin-top: 10px;
+        border-radius: 10px
+      }
+
+    .font-banner {
+        font-size: 31px;
+        line-height: 100% !important;
+        padding: 0 25px !important;
+    }
+/* 
+    .grey_block {
+        display:none;
+    } */
+
+    .card-container {
+        display: block !important;
+        object-fit: cover;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 23px;
+        justify-content: center;
+    }
+    }
