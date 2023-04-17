@@ -1,5 +1,5 @@
 .collapse {
-    width: 80%;
+    width: 40%;
     top: 171px;
     display: flex;
     flex-direction: column;
@@ -115,13 +115,14 @@
         padding-left: 8%;
     }
     .dropdownTitleBox{
-        width: 115%;
+        width: 100%;
     }
     .dropdownTitleBox img{
         height: 25%;
     }
     .collapse{
         margin-top:5%;
+        width:90%;
     }
    
 }
