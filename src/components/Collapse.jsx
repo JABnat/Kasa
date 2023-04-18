@@ -4,7 +4,7 @@ import { useState } from 'react'
 import '../data/lodgements'
 
 export default function Collapse({title, description, equipments}) {
-    // console.log(equipments)
+
     const [collapse, setCollapse] = useState(false);
 
     function handleClick(){

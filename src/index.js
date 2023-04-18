@@ -24,7 +24,7 @@ const router = createBrowserRouter([
       element: <Lodgements />
     },
     {
-      path: "*",
+      path: "/*",
       element: <Error />
     },
   ]);
