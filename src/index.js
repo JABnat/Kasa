@@ -8,6 +8,7 @@ import Home from './pages/Home/Home';
 import About from './pages/About/About';
 import Lodgements from './pages/Lodgement/Lodgement';
 import Error from './pages/Error/Error';
+import './styles/App.css'
 
 
 const router = createBrowserRouter([
@@ -17,7 +18,7 @@ const router = createBrowserRouter([
     },
     {
       path: "/about",
-      element: <About />
+      element: <About/>
     },
     {
       path: "/lodgement/*",

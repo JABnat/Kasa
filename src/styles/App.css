@@ -25,16 +25,6 @@
   color: #61dafb;
 }
 
-
 .spaceBetween {
   height:100px;
-}
-
-a {
-  text-decoration: none;
-  color:#FF6060;
-}
-
-a:hover {
-  text-decoration: underline;
 }
