@@ -5,7 +5,7 @@ import '../styles/Slideshow.css'
 
 export default function Slideshow({ slides }) {
 	const [current, setCurrent] = useState(0); //Set the index of the first slide to 0
-	const length = slides.length; // length of the array
+	const length = slides.length; // define length of the array
 
 	const nextSlide = () => {
 		setCurrent(current === length - 1 ? 0 : current + 1); // go back to the first slide when we reach the last one

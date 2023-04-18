@@ -8,13 +8,15 @@ import lodgements from '../../data/lodgements';
 import Tag from '../../components/Tag'
 import Footer from '../../components/Footer'
 import '../../styles/Lodgement.css'
+import { Navigate } from "react-router-dom";
 
 export default function Lodgements() {
     const urlParam  = useParams()
     const lodgementId = urlParam['*']
     const currentLodgement = lodgements.filter(lodgement => lodgement.id === lodgementId)['0']
-    // console.log(currentLodgement['equipments'])
 
+    if (currentLodgement) {
+    
     return (
        
         <div>
@@ -61,6 +63,9 @@ export default function Lodgements() {
             <div className='spaceBetween'></div>
             <Footer/>
         </div>
-    )
-    
+    )} else { 
+        return (
+            <Navigate replace to='/Error'/>
+        )
+    }
 };
