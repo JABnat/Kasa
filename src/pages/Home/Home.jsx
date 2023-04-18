@@ -1,4 +1,3 @@
-import '../../App'
 import '../../styles/Home.css'
 import '../../styles/Navigator.css'
 import Banner from '../../components/Banner'
