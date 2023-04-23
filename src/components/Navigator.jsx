@@ -1,6 +1,7 @@
 import '../styles/Navigator.css'
 import logo from "../assets/logo.svg"
 import {useLocation} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 export default function Navigator() {
@@ -26,6 +27,12 @@ if (currentPage === "/Kasa/") {
                 <div className={activePage}>A Propos</div>
               </a>
         </div>
-      </div>
+     
+  
+  <Link to='/Kasa/'>Acceuil</Link>
+  </div>
   )
+
+  
 };
+
