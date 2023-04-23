@@ -2,7 +2,6 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
-    max-width: 1665px;
 }
 
 .button-container {
