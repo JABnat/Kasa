@@ -20,19 +20,14 @@ if (currentPage === "/Kasa/") {
         <div className="navigator">
           <img className="logo-nav" src={logo} alt="Kasa logo"/>
             <div className="button-container">
-              <a href='/Kasa/'>
+              <Link to='/Kasa/'>
                 <div className={blankLink}>Acceuil</div>
-              </a>
-              <a href='/about'>
+              </Link>
+              <Link to='/about'>
                 <div className={activePage}>A Propos</div>
-              </a>
+              </Link>
         </div>
-     
-  
-  <Link to='/about'>About</Link>
   </div>
   )
-
-  
 };
 
