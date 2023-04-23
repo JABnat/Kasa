@@ -14,11 +14,8 @@ export default function Lodgements() {
     const urlParam  = useParams()
     const lodgementId = urlParam['*']
     const currentLodgement = lodgements.filter(lodgement => lodgement.id === lodgementId)['0']
-    const buttonsStyle={textDecoration:'none'}
-   
 
     if (currentLodgement) {
-        console.log(buttonsStyle)
     return (
        
         <div>
