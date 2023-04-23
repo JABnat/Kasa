@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/KASA_p7/static/css/main.1620a8a9.css",
-    "main.js": "/KASA_p7/static/js/main.78ecff6e.js",
-    "static/media/AboutBanner.png": "/KASA_p7/static/media/AboutBanner.6c79766be217203aa351.png",
-    "static/media/BannerAcceuil.png": "/KASA_p7/static/media/BannerAcceuil.e76961bbfb39d9c6c040.png",
-    "static/media/logo.svg": "/KASA_p7/static/media/logo.8537c70b460143683cc824947793cfa3.svg",
-    "static/media/logo_footer.svg": "/KASA_p7/static/media/logo_footer.ee689fd9409d1b5a898b4247819d8a00.svg",
-    "index.html": "/KASA_p7/index.html",
-    "static/media/emptyStar.svg": "/KASA_p7/static/media/emptyStar.68fd8a1ead5375bd59bb6ae0b633ffd3.svg",
-    "static/media/filledStar.svg": "/KASA_p7/static/media/filledStar.30b8963e66a47777ef47296f505567be.svg",
-    "static/media/Vector_DOWN_ARROW.svg": "/KASA_p7/static/media/Vector_DOWN_ARROW.739798ec9f1e910e02ff526d9be2a64e.svg",
-    "static/media/Vector-right.svg": "/KASA_p7/static/media/Vector-right.88153a5d119c2744ffe34dca1ef843df.svg",
-    "static/media/Vector-left.svg": "/KASA_p7/static/media/Vector-left.19918a1634b1441a25ae0b50e6b1f85b.svg",
-    "main.1620a8a9.css.map": "/KASA_p7/static/css/main.1620a8a9.css.map",
-    "main.78ecff6e.js.map": "/KASA_p7/static/js/main.78ecff6e.js.map"
+    "main.css": "/static/css/main.2e7e5798.css",
+    "main.js": "/static/js/main.50e09bef.js",
+    "static/media/AboutBanner.png": "/static/media/AboutBanner.6c79766be217203aa351.png",
+    "static/media/BannerAcceuil.png": "/static/media/BannerAcceuil.e76961bbfb39d9c6c040.png",
+    "static/media/logo.svg": "/static/media/logo.8537c70b460143683cc824947793cfa3.svg",
+    "static/media/logo_footer.svg": "/static/media/logo_footer.ee689fd9409d1b5a898b4247819d8a00.svg",
+    "index.html": "/index.html",
+    "static/media/emptyStar.svg": "/static/media/emptyStar.68fd8a1ead5375bd59bb6ae0b633ffd3.svg",
+    "static/media/filledStar.svg": "/static/media/filledStar.30b8963e66a47777ef47296f505567be.svg",
+    "static/media/Vector_DOWN_ARROW.svg": "/static/media/Vector_DOWN_ARROW.739798ec9f1e910e02ff526d9be2a64e.svg",
+    "static/media/Vector-right.svg": "/static/media/Vector-right.88153a5d119c2744ffe34dca1ef843df.svg",
+    "static/media/Vector-left.svg": "/static/media/Vector-left.19918a1634b1441a25ae0b50e6b1f85b.svg",
+    "main.2e7e5798.css.map": "/static/css/main.2e7e5798.css.map",
+    "main.50e09bef.js.map": "/static/js/main.50e09bef.js.map"
   },
   "entrypoints": [
-    "static/css/main.1620a8a9.css",
-    "static/js/main.78ecff6e.js"
+    "static/css/main.2e7e5798.css",
+    "static/js/main.50e09bef.js"
   ]
 }
