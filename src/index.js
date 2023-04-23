@@ -13,12 +13,12 @@ import './styles/App.css'
 
 const router = createBrowserRouter([
     {
-      path: "/",
+      path: "/Kasa/",
       element: <Home />
     },
     {
       path: "/about",
-      element: <About/>
+      element: <About />
     },
     {
       path: "/lodgement/*",
