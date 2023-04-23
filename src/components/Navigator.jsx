@@ -29,7 +29,7 @@ if (currentPage === "/Kasa/") {
         </div>
      
   
-  <Link to='/Kasa/'>Acceuil</Link>
+  <Link to='/about'>About</Link>
   </div>
   )
 
