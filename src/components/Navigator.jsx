@@ -8,7 +8,7 @@ export default function Navigator() {
   let blankLink="inactivePage"
   let currentPage= useLocation().pathname
 
-if (currentPage === "/") {
+if (currentPage === "/Kasa/") {
   blankLink = "activePage"
   activePage="inactivePage"
 } else if (currentPage === "/about") {
@@ -19,7 +19,7 @@ if (currentPage === "/") {
         <div className="navigator">
           <img className="logo-nav" src={logo} alt="Kasa logo"/>
             <div className="button-container">
-              <a href='/'>
+              <a href='/Kasa/'>
                 <div className={blankLink}>Acceuil</div>
               </a>
               <a href='/about'>
