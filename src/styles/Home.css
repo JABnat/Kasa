@@ -78,6 +78,7 @@ color: #FFFFFF;
   }
   .card_container {
     gap: 20px !important; 
+    flex-direction:column;
   }
   .card {
     width: 100% !important;
